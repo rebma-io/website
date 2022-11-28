@@ -1,0 +1,25 @@
+baseURL = 'https://rebma.io/'
+languageCode = 'en-us'
+title = 'rebma.io'
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showLanguageSelector = false
+  autoCover = true
+  showLastUpdated = true
+  enableGitInfo = true
+  readingTime = true
+
+[languages]
+  [languages.en]
+    [languages.en.params.logo]
+      logoText = "rebma.io"
+      logoHomeLink = "/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
